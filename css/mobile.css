@@ -1,0 +1,66 @@
+@media screen and (max-width: 576px) {
+  /* navbar */
+  .main-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-nav a {
+    display: block;
+    width: 100%;
+  }
+  .main-nav .profile-image {
+    display: none;
+  }
+  .main-nav .profile-image img {
+    display: none;
+  }
+  /* about self section*/
+  .about-self {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .target,
+  .personal-info {
+    padding-left: 2rem;
+  }
+  /* person-background section */
+  .person-background .section-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 2.4rem;
+  }
+  .hobby ul {
+    flex-wrap: wrap;
+  }
+  /* certificate section */
+  .certificate-grid .row {
+    border: none;
+    margin-bottom: 0rem;
+    padding-top: 0;
+  }
+  .certificate-grid .row .sub-section:nth-child(even) {
+    border: none;
+    padding-left: 2rem;
+  }
+  .certificate-grid .row .sub-section {
+    border-top: solid 2px #ff9a9a !important;
+    padding: 2rem 2rem 0 2rem;
+  }
+  .certificate-grid .sub-section:first-child {
+    border-top: none;
+  }
+  /* project section */
+  .project .section-container {
+    grid-template-columns: 1fr;
+  }
+  .project-info {
+    grid-template-columns: 1fr;
+  }
+  .project .sub-section > div {
+    flex-direction: column;
+  }
+  .project .sub-section .title {
+    flex: 0 0 auto;
+  }
+}

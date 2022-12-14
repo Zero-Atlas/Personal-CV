@@ -1,0 +1,47 @@
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  /* navbar */
+  .main-nav .profile-image {
+    display: none;
+  }
+  .main-nav .profile-image img {
+    display: none;
+  }
+  /* about self section*/
+  .target {
+    padding-left: 4rem;
+  }
+  /* person-background section */
+  .person-background .section-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 110rem;
+    margin: 0;
+  }
+  .person-background .section-container .sub-section {
+    max-width: 60%;
+  }
+  .hobby ul {
+    flex-wrap: wrap;
+  }
+  /* certificate section */
+  .certificate .sub-section {
+    flex-direction: column;
+  }
+  /* project section */
+  .project-info {
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .project-info .position {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .project .sub-section > div {
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+  .project .sub-section .title {
+    flex: 0 0 auto;
+  }
+}
